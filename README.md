@@ -14,19 +14,20 @@
 
 - text — текст для показа, тип string;
 - type — тип пуша;
-- Типы пушей:
 
-LocationPush — пуш с дополнительными параметрами: x_coord (float), y_coord (float), radius (int), expiry_date (long);
+Типы пушей:
 
-AgeSpecificPush — пуш с дополнительными параметрами: age (int), expiry_date (long);
+_LocationPush_ — пуш с дополнительными параметрами: x_coord (float), y_coord (float), radius (int), expiry_date (long);
 
-TechPush — пуш с дополнительным параметром os_version;
+_AgeSpecificPush_ — пуш с дополнительными параметрами: age (int), expiry_date (long);
 
-LocationAgePush — пуш с дополнительными параметрами: x_coord (float), y_coord (float), radius (int), age (int);
+_TechPush_ — пуш с дополнительным параметром os_version;
 
-GenderAgePush — пуш с дополнительными параметрами: gender, age (int);
+_LocationAgePush_ — пуш с дополнительными параметрами: x_coord (float), y_coord (float), radius (int), age (int);
 
-GenderPush — пуш с дополнительными параметрами gender.
+_GenderAgePush_ — пуш с дополнительными параметрами: gender, age (int);
+
+_GenderPush_ — пуш с дополнительными параметрами gender.
 
 ### Набор правил фильтрации:
 
